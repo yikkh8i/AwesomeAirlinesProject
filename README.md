@@ -14,7 +14,7 @@ I have a strong interest in airlines, air travel and the aviation industry in ge
 also the operations end. I find actual air travel systems complicated yet fascinating, simply due to the
 sheer scale of information and accuracy required.
 
-##User Stories
+## User Stories
 - As a user, I want to be able to view the seat availability for all flights.
 - As a user, I want to be able to create a flight ticket reservation and have it added to the flight's list of reservations.
 - As a user, I want to be able to change an existing reservation to another flight.
@@ -29,8 +29,7 @@ sheer scale of information and accuracy required.
 - As a user, I want to be able to select my dietary preferences/requirements when booking my flight.
 - Each flight has varying maximum capacities.
 
-##Phase 4: Task 2
-Sample AW Event Log:
+## Sample AW Event Log:
 
 Wed Mar 30 00:42:56 PDT 2022
 John has been reserved on AW101.
@@ -45,7 +44,7 @@ Wed Mar 30 00:43:10 PDT 2022
 John's reservation for AW101 has been cancelled.
 
 
-##Phase 4: Task 3
+## Reflections, to be worked on.
 
 - To reduce coupling, I would make FlightsGUI an observer that observes ReservationAppGUI, such that any time a 
 reservation or cancellation is made, FlightsGUI can be notified and update the information displayed. Then, the 
