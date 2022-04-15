@@ -1,0 +1,28 @@
+{
+  "date": "31DEC",
+  "guests": [{
+    "reservedFlightNum": 201,
+    "reserved": true,
+    "name": "John"
+  }],
+  "flights": [
+    {
+      "reservationList": [{
+        "reservedFlightNum": 201,
+        "name": "John",
+        "guestReserved": true
+      }],
+      "flightNum": 201,
+      "origin": "YVR",
+      "destination": "JFK",
+      "currentLoad": 1
+    },
+    {
+      "reservationList": [],
+      "flightNum": 202,
+      "origin": "YVR",
+      "destination": "LAX",
+      "currentLoad": 0
+    }
+  ]
+}

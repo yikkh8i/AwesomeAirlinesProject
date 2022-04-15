@@ -1,0 +1,34 @@
+{
+    "date": "01JAN",
+    "guests": [],
+    "flights": [
+        {
+            "reservationList": [],
+            "flightNum": 101,
+            "origin": "YVR",
+            "destination": "YYZ",
+            "currentLoad": 0
+        },
+        {
+            "reservationList": [],
+            "flightNum": 102,
+            "origin": "YVR",
+            "destination": "YYC",
+            "currentLoad": 0
+        },
+        {
+            "reservationList": [],
+            "flightNum": 103,
+            "origin": "YVR",
+            "destination": "YOW",
+            "currentLoad": 0
+        },
+        {
+            "reservationList": [],
+            "flightNum": 104,
+            "origin": "YVR",
+            "destination": "YUL",
+            "currentLoad": 0
+        }
+    ]
+}
